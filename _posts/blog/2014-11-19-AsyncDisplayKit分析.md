@@ -1,8 +1,10 @@
 
-layout:     post
-title:      我为什么写博客？
+---
+layout: post
+title: AsyncDisplayKit分析
+description: Github本身就是不错的代码社区，他也提供了一些其他的服务，比如Github Pages，使用它可以很方便的建立自己的独立博客，并且免费。
 category: blog
-
+---
 ##AsyncDisplayKit分析
 ### 需要iOS7，why?
 ### ASDisplayNode分析
