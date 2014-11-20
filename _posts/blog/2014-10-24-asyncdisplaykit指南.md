@@ -52,7 +52,7 @@ category: blog
 
 &#8195;&#8195;ASImageNode 和 ASTextNode 都继承自ASControlNode,可以当做button使用，比如我们想做一个音乐播放器，先添加一个shuffle按钮：
 
-![image](file:///Users/yuefan/学习/shuffle.png)
+![image](https://github.com/yufenglv/yufenglv.github.io/blob/master/images/blog/shuffle.png)
 
 &#8195;&#8195;view controller的代码:
 
