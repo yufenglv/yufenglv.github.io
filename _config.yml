@@ -13,7 +13,7 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-title: LvJin.com
+title: ios-dev.cn
 url: http://beiyuu.com
 feed: /atom.xml
-author_info: <a href="http://beiyuu.com/">LvJin</a>
+author_info: <a href="http://www.ios-dev.cn/">LvJin</a>
