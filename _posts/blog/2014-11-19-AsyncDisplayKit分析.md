@@ -26,6 +26,22 @@ category: blog
  > * -display立刻调用代理对象的display方法（-drawRect 或者 -display）
  > * display立刻将内容赋给layer
  
+### ASDataController
+ 
+### ASRangeController
+ASRangeController跟ASDataController配对使用。
+
+#### ASLayoutRangeType
+两种：  ASLayoutRangeTypeRender：渲染
+  ASLayoutRangeTypePreload：预加载
+  
+	  ASRangeHandler 协议
+      // this delegate decide what happens when a node is added or removed from a range
+
+	  - (void)node:(ASDisplayNode *)node enteredRangeOfType:(ASLayoutRangeType)rangeType;
+	  - (void)node:(ASDisplayNode *)node exitedRangeOfType:(ASLayoutRangeType)rangeType;
+
+
 ###_ASDisplayLayer
 
 > `displayQueue` 并行执行队列，队列的优先权为`DISPATCH_QUEUE_PRIORITY_HIGH`。
